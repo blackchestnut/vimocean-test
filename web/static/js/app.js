@@ -21,7 +21,7 @@ import "deps/phoenix_html/web/static/js/phoenix_html"
 // import socket from "./socket"
 
 import React from "react";
-import ReactDOM from "react-dom";
+//import ReactDOM from "react-dom";
 
 let HelloWorld = React.createClass({
   render: function() {
@@ -32,5 +32,5 @@ let HelloWorld = React.createClass({
 React.render(
 //ReactDOM.render(
   <h1>Hello, world!</h1>,
-  document.getElementsByClassName('container')[0]
+  document.getElementsByClassName('hellow')[0]
 );
