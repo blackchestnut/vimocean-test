@@ -19,3 +19,18 @@ import "deps/phoenix_html/web/static/js/phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+let HelloWorld = React.createClass({
+  render: function() {
+    return (<h1>Hello, world!</h1>);
+  }
+})
+
+React.render(
+//ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementsByClassName('container')[0]
+);
